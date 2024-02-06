@@ -1,8 +1,8 @@
 class UserAge {
        public static void main(String[] args) {
         int userAge=26;
-        float result=(float)(userAge);
-        System.out.println(Age +result);
+        //float result=(float)(userAge);
+        System.out.println(Age +userAge);
         
         
         
