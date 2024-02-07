@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class TimeConverter {
     public static void main(String[] args) {
-        int seconds = 100000000; // Change this to the number of seconds you want to convert
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of seconds you want to convert: ");
+        int seconds = scanner.nextInt();
 
         int days = seconds / (24 * 3600);
         int weeks = days / 7;
@@ -10,5 +15,7 @@ public class TimeConverter {
         System.out.println("Days: " + days);
         System.out.println("Weeks: " + weeks);
         System.out.println("Years: " + years);
+
+        scanner.close();
     }
 }
