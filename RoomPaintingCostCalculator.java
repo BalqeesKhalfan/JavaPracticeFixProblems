@@ -1,6 +1,6 @@
 public class RoomPaintingCostCalculator {
     public static void main(String[] args) {
-        double length = 10.0; // Length of the room in meters
+        double length = 8.0; // Length of the room in meters
         double width = 8.0;   // Width of the room in meters
         double height = 3.0;  // Height of the room in meters
         double paintCostPerSquareMeter = 15.0; // Cost of paint per square meter
